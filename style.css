@@ -30,3 +30,32 @@ table tr td:first-child, table tr th:first-child{
 table tr td:last-child, table tr th:last-child{
     border-right:0;
 }
+
+#game tr td{
+    width: 60px;
+    height: 80px;
+
+}
+#banner{
+    text-align: center;
+    padding-bottom: 15px;
+}
+#options{
+    display: flex;
+    justify-content: centerss;
+}
+#choice{
+    text-align: center;
+    padding: 30px 0;
+}
+#game {
+    width: 400px;
+    margin:0 auto;
+    text-align: center;
+    font-size: 40px;
+}
+#details{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
