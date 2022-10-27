@@ -15,5 +15,14 @@ minmax.prototype.setMinMax=function(min, max) {
 minmax.prototype.copyBoard=function(board){
     return board.slice(0);
 }
-
+minmax.prototypemakeMove =function(position, board, player){
+    if(board[position] == 0){
+        var newBoard =this.copyBoard(board);
+        newBoard[position]=player;
+        return newBoard;
+    }
+    else{
+        return null;
+    }
+}
 
